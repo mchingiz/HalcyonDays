@@ -1,0 +1,308 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------ */
+/*    MAIN CLASSES    */
+/* -------------------*/
+.main {
+    margin:0;
+    padding:0;
+    font-family:'Varela',serif;}
+
+h1,h2,h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:20px;
+    padding-bottom:8px;}
+
+p{
+    text-align:center;
+    font-size:14px;
+    word-spacing:1px;
+    line-height:30px;}
+
+.secondaryColor{
+    color:#A1A9B0;}
+
+.divider{
+    background-size: cover;
+    background-position: center;}
+
+.container-fluid {
+	background-color: #F3F5F8;}
+
+.container {
+    padding:70px;}
+
+.headerbg{
+    margin-bottom:20px;}
+
+.line {
+    border:2px solid #3DC9B3;
+    margin:20px auto;
+    width:35px; }
+
+.italic {
+    font-style: italic;}
+/* -------------- */
+/*     HEADER     */
+/* ---------------*/
+
+.header {
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;}
+
+.header .container {
+    margin-top:50px;
+    height:700px;}
+
+.header i{
+    font-size:3em;}
+
+.header h1{
+    font-size:40px;
+    margin-top:200px;
+    letter-spacing: 12px;
+    margin-bottom: 20px;}
+
+.header p {
+    letter-spacing: 1px;}
+
+.header .btn{
+    margin-top:50px;
+    background-color: #3DC9B3;
+    color:white;
+    font-weight: bold;
+    padding:17px 30px;
+    font-size:1em;
+    box-shadow: 0px -5px 5px -3px black inset;}
+
+.header .btn:hover{
+    opacity: 0.7;}
+
+/* -------------- */
+/*     FEATURES   */
+/* ---------------*/
+
+.features .col-md-4{}
+
+.features .col-md-4 {
+    padding:20px;}
+
+.features .col-md-4 i{
+    background-color: #3DC9B3;
+	border-radius:100%;
+    color:white;
+    font-size:95px;
+    padding:40px;
+    text-align: center;
+	margin-bottom:20px;}
+
+
+/* -------------- */
+/*     IPHONE     */
+/* ---------------*/
+.iphone .col-md-6{
+   height:600px;}
+
+.iphone .col-md-6:first-child{
+    background-image: url(img/iphone-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 300px;}
+
+.iphone .col-md-6:last-child{
+    padding:100px 200px;
+    background-color: white;}
+
+/* -------------------------- */
+/*    DIVIDER and DIVIDER 1   */
+/* ---------------------------*/
+
+.divider h1,h3{
+    color:white;
+    font-weight:normal;
+    letter-spacing:5px;}
+
+.divider h1{
+    font-size:40px;}
+.divider h3{
+    font-size:23px;}
+
+.divider1{
+    background-image: url(img/plants-bg.jpg);
+    height:300px;
+    padding:60px;}
+
+.divider1 i{
+	background-color: rgba(61,201,179,1);
+	border-radius:100px;
+	color:white;
+	padding:20px;
+	margin-top:20px;}
+
+/* -------------- */
+/*    PORTFOLIO    */
+/* ---------------*/
+
+.portfolio .col-md-4{
+    padding: 15px;}
+
+.portfolio .col-md-4 img{
+    width:100%;}
+
+/* -------------- */
+/*   DIVIDER 2    */
+/* ---------------*/
+
+.divider2{
+    background-color:black;}
+
+.divider2 button {
+    margin:70px auto;
+    padding:10px;
+    background: transparent;
+    border:1px solid white;
+    color:white;}
+
+
+/* -------------- */
+/*      TEAM      */
+/* ---------------*/
+
+.team img {
+	display:block;
+	margin:10px auto;}
+
+ul{
+    margin-top:20px;}
+ul i{
+    background-color: black;
+    color:White;
+    padding:10px;}
+ul i:hover{
+    background-color: #3DC9B3;
+    transition-duration: 0.5s;}
+
+/* -------------- */
+/*   DIVIDER 3    */
+/* ---------------*/
+
+.divider3{
+    background-image: url(img/keyboard-bg.jpg);}
+
+.divider3 i{
+    color:white;
+    font-size:2em;
+    display: block;
+    margin:20px;
+    margin-top:50px}
+
+.divider3 form{
+    height:auto;
+    margin:50px auto;
+    margin-bottom:100px;
+    text-align: center;}
+.divider3 input{
+    background-color: rgba(0,0,0,0.1);
+    border:1px solid white; 
+    height:68px;
+    padding:0px;
+    color:white;}
+
+.divider3 button{
+    background-color: rgba(61,201,179,0.3);
+    color:white;
+    text-transform: uppercase;
+    height:70px;
+    padding:0 30px;
+    font-weight: bold;
+    margin-top:-1px;
+    border-radius:0px;}
+
+.divider3 button:hover{
+    background-color: rgba(61,201,179,1);
+    transition-duration: 0.6s;
+    color:white;}
+
+
+/* -------------- */
+/*    CONTACT     */
+/* ---------------*/
+
+.contact{
+	position:relative;}
+
+.contact img {
+	margin-bottom:50px;}
+
+/* UP ICON */
+
+.fa-chevron-up {
+	padding:20px;
+	background-color: rgba(61,201,179,0.3);
+	position:absolute;
+	top:-30px;
+	color:white;}
+
+.fa-chevron-up:hover{
+	background-color: rgba(61,201,179,1);
+    transition-duration: 0.6s;
+    color:white;}
+
+/* up icon ends */
+
+.contact .col-md-4 {
+	margin-bottom:50px;}
+
+.contactDetails {
+	padding:50px 20px;
+	background-color:white;}
+
+.contactDetails i{
+	display:block;
+	font-size:1.5em;
+	margin:10px;}
+
+/* -------------- */
+/*     FOOTER     */
+/* ---------------*/
+
+.footer {
+	background-color: black;}
+
+.footer a {
+	color:#a1a9b0;}
+
+.footer p {
+	color:white;}
